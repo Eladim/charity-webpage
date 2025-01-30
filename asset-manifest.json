@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/charity-webpage/static/css/main.5d8dea2f.css",
+    "main.css": "/charity-webpage/static/css/main.ca4cdbb9.css",
     "main.js": "/charity-webpage/static/js/main.0ba9409c.js",
     "static/js/488.f2903ab9.chunk.js": "/charity-webpage/static/js/488.f2903ab9.chunk.js",
     "static/media/hero.jpg": "/charity-webpage/static/media/hero.2db8b5817f6951a22287.jpg",
     "static/media/about-image.jpg": "/charity-webpage/static/media/about-image.a496cd9c686e4a7394d5.jpg",
     "static/media/mission-image.jpg": "/charity-webpage/static/media/mission-image.d40916e83bd8315456ca.jpg",
     "index.html": "/charity-webpage/index.html",
-    "main.5d8dea2f.css.map": "/charity-webpage/static/css/main.5d8dea2f.css.map",
+    "main.ca4cdbb9.css.map": "/charity-webpage/static/css/main.ca4cdbb9.css.map",
     "main.0ba9409c.js.map": "/charity-webpage/static/js/main.0ba9409c.js.map",
     "488.f2903ab9.chunk.js.map": "/charity-webpage/static/js/488.f2903ab9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d8dea2f.css",
+    "static/css/main.ca4cdbb9.css",
     "static/js/main.0ba9409c.js"
   ]
 }
