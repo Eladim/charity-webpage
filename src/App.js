@@ -7,7 +7,7 @@ import "./styles.css";
 
 export default function CharityPage() {
   useEffect(() => {
-    document.title = "Charity Initiative";
+    document.title = "Blessed";
   }, []);
 
   const [modalContent, setModalContent] = useState(null);
