@@ -51,7 +51,7 @@ export default function CharityPage() {
           <div className="text">
             <h2>ПОВОД</h2>
             <p>На 06.08.2024 на 73-тото си годишно събрание, проведено във Финландия...</p>
-            <button class="read-more-btn" onClick={() => openModal(`                
+            <button className="read-more-btn" onClick={() => openModal(`                
                     международната федерация на медицинските студентски асоциации (IFMSA) гласува с
                     мнозинство изключването на Израел от редиците си като пълноправен член. По-скоро
                     повод от колкото причина за изключването са редица неизяснени обвинения срещу
@@ -86,7 +86,7 @@ export default function CharityPage() {
                     като отговор и съпротива на всеразпростиращия се антисемитизъм и безразличието към
                     него, нахлули вече и сред медицинските среди и погазващи основни принципи на
                     работната етика и култура.
-                `)} className="read-more">Read More</button>
+                `)} >Read More</button>
           </div>
           <div className="image right-on-desktop">
             <img src={aboutImage} alt="About Us" className="responsive-image" />
@@ -99,7 +99,7 @@ export default function CharityPage() {
           <div className="text">
             <h2>ПРИЗИВ</h2>
             <p>„Заради братята и другарите си ще кажа сега: Мир да е в тебе!“ (Псалм 122:8)...</p>
-            <button class="read-more-btn" onClick={() => openModal(`                „БлаженИ“ цели да бъдем блажени, да бъде блажен Израел, чрез възобновяване
+            <button className="read-more-btn" onClick={() => openModal(`                „БлаженИ“ цели да бъдем блажени, да бъде блажен Израел, чрез възобновяване
                     на академичния обмен на израелските медицински студенти с България и други
                     страни. “БлаженИ” е призив да се разграничим от антисемитизма, нахлул вече и в
                     медицинските среди на подрастващото поколение. „Блажен оня човек, който не ходи по съвета на нечестивите...“ (Псалм 1:1).
@@ -148,7 +148,7 @@ export default function CharityPage() {
                     „добро дело“, той е извършил злодеяние с тежки последствия за пострадалите от
                     тази небрежност. Нека извършим това дело, инициативата “БлаженИ”, днес.
                     Последиците от алтернативата, въвличане и разпространяване на антисемитизма,
-                    не са добри за никого`)} className="read-more">Read More</button>
+                    не са добри за никого`)}>Read More</button>
           </div>
           <div className="image right-on-desktop">
             <img src={missionImage} alt="Mission" className="responsive-image" />
