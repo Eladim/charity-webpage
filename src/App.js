@@ -27,7 +27,6 @@ export default function CharityPage() {
         <div className="container">
           <div className="nav-links">
               
-              <Link to="home" smooth={true} duration={500} className="nav-link">Начало</Link>
               <Link to="about" smooth={true} duration={500} className="nav-link">Повод</Link>
               <Link to="mission" smooth={true} duration={500} className="nav-link">Призив</Link>
               <Link to="contact" smooth={true} duration={500} className="nav-link">Контакти</Link>

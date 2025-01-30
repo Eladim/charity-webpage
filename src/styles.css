@@ -12,70 +12,18 @@ body {
     text-align: center;
   }
   
-/* Navbar Base Styling */
-.navbar {
+  .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background: #2c3e50;
     color: white;
-    padding: 10px 0;
+    padding: 15px 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    display: flex;
-    justify-content: center;
-}
-
-/* Navigation List */
-.navbar ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap; /* Prevents text from overflowing */
-}
-
-/* Navigation Links */
-.navbar ul li {
-    margin: 5px 10px; /* Adjust spacing between items */
-}
-
-.navbar ul li a {
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-    padding: 5px 12px;
-    transition: color 0.3s ease-in-out;
-}
-
-/* Reduce Font Size and Adjust Layout on Small Screens */
-@media (max-width: 768px) {
-    .navbar ul {
-        flex-direction: row;
-        flex-wrap: wrap; /* Ensures items wrap to a new row if needed */
-        justify-content: space-around;
-    }
-
-    .navbar ul li a {
-        font-size: 14px; /* Smaller font size */
-        padding: 5px 8px; /* Adjust padding for better fit */
-    }
-}
-
-/* Stack Menu Items if the Screen is Very Small */
-@media (max-width: 480px) {
-    .navbar ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar ul li {
-        margin: 5px 0; /* Adds spacing for stacked items */
-    }
-}
+  }
+  
   .container {
     width: 80%;
     margin: 0 auto;
