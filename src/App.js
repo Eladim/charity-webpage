@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { FaFacebook, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaYoutube, FaXTwitter } from "react-icons/fa";
 import aboutImage from "./assets/about-image.jpg";
 import missionImage from "./assets/mission-image.jpg";
 import "./styles.css";
@@ -163,7 +163,9 @@ export default function CharityPage() {
         <div className="social-icons">
           <a href="https://www.facebook.com/profile.php?id=61565783195337" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
           <a href="https://www.youtube.com/@%D0%91%D0%BB%D0%B0%D0%B6%D0%B5%D0%BD%D0%98-%D1%838%D0%BA" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
-          <a href="https://x.com/blazheni24" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+          <a href="https://x.com/blazheni24" target="_blank" rel="noopener noreferrer">
+    <i className="fa-brands fa-x-twitter"></i>
+</a>
         </div>
       </section>
       <section id="join" className="section join">

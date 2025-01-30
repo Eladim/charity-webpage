@@ -257,7 +257,7 @@ body {
 }
 
 .social-icons a:nth-child(3) {
-    background: #1da1f2; /* Twitter color */
+    background: #202020; /* Twitter color */
     color: white;
 }
 
@@ -270,7 +270,7 @@ body {
 }
 
 .social-icons a:hover:nth-child(3) {
-    background: #0d95e8;
+    background: #131313;
 }
 
 
